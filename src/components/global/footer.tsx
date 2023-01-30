@@ -2,74 +2,59 @@ import React, { FC } from "react";
 
 const Footer: FC = () => {
 	return (
-		<div className="container-fluid bg-secondary text-dark mt-5 pt-5">
-			<div className="row px-xl-5 pt-5">
-				<div className="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
-					<a href="" className="text-decoration-none">
-						<h1 className="mb-4 display-5 font-weight-semi-bold"><span
-							className="text-primary font-weight-bold border border-white px-3 mr-1">E</span>Shopper</h1>
-					</a>
-					<p>Dolore erat dolor sit lorem vero amet. Sed sit lorem magna, ipsum no sit erat lorem et magna ipsum dolore
-						amet erat.</p>
-					<p className="mb-2"><i className="fa fa-map-marker-alt text-primary mr-3"></i>123 Street, New York, USA</p>
-					<p className="mb-2"><i className="fa fa-envelope text-primary mr-3"></i>info@example.com</p>
-					<p className="mb-0"><i className="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
-				</div>
-				<div className="col-lg-8 col-md-12">
-					<div className="row">
-						<div className="col-md-4 mb-5">
-							<h5 className="font-weight-bold text-dark mb-4">Quick Links</h5>
-							<div className="d-flex flex-column justify-content-start">
-								<a className="text-dark mb-2" href="index.html"><i className="fa fa-angle-right mr-2"></i>Home</a>
-								<a className="text-dark mb-2" href="shop.html"><i className="fa fa-angle-right mr-2"></i>Our Shop</a>
-								<a className="text-dark mb-2" href="detail.html"><i className="fa fa-angle-right mr-2"></i>Shop Detail</a>
-								<a className="text-dark mb-2" href="cart.html"><i className="fa fa-angle-right mr-2"></i>Shopping Cart</a>
-								<a className="text-dark mb-2" href="checkout.html"><i className="fa fa-angle-right mr-2"></i>Checkout</a>
-								<a className="text-dark" href="contact.html"><i className="fa fa-angle-right mr-2"></i>Contact Us</a>
-							</div>
+		<footer className="ftco-footer ftco-bg-dark ftco-section">
+			<div className="container">
+				<div className="row mb-5">
+					<div className="col-md">
+						<div className="ftco-footer-widget mb-4">
+							<h2 className="ftco-heading-2"><a href="#" className="logo">Zep<span>Bo</span></a></h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+								<li className=""><a href="#"><span className="icon-twitter"></span></a></li>
+								<li className=""><a href="#"><span className="icon-facebook"></span></a></li>
+								<li className=""><a href="#"><span className="icon-instagram"></span></a></li>
+							</ul>
 						</div>
-						<div className="col-md-4 mb-5">
-							<h5 className="font-weight-bold text-dark mb-4">Quick Links</h5>
-							<div className="d-flex flex-column justify-content-start">
-								<a className="text-dark mb-2" href="index.html"><i className="fa fa-angle-right mr-2"></i>Home</a>
-								<a className="text-dark mb-2" href="shop.html"><i className="fa fa-angle-right mr-2"></i>Our Shop</a>
-								<a className="text-dark mb-2" href="detail.html"><i className="fa fa-angle-right mr-2"></i>Shop Detail</a>
-								<a className="text-dark mb-2" href="cart.html"><i className="fa fa-angle-right mr-2"></i>Shopping Cart</a>
-								<a className="text-dark mb-2" href="checkout.html"><i className="fa fa-angle-right mr-2"></i>Checkout</a>
-								<a className="text-dark" href="contact.html"><i className="fa fa-angle-right mr-2"></i>Contact Us</a>
-							</div>
+					</div>
+					<div className="col-md">
+						<div className="ftco-footer-widget mb-4 ml-md-5">
+							<h2 className="ftco-heading-2">Information</h2>
+							<ul className="list-unstyled">
+								<li><a href="#" className="py-2 d-block">About</a></li>
+								<li><a href="#" className="py-2 d-block">Services</a></li>
+								<li><a href="#" className="py-2 d-block">Term and Conditions</a></li>
+								<li><a href="#" className="py-2 d-block">Best Price Guarantee</a></li>
+								<li><a href="#" className="py-2 d-block">Privacy &amp; Cookies Policy</a></li>
+							</ul>
 						</div>
-						<div className="col-md-4 mb-5">
-							<h5 className="font-weight-bold text-dark mb-4">Newsletter</h5>
-							<form action="">
-								<div className="form-group">
-									<input type="text" className="form-control border-0 py-4" placeholder="Your Name" />
-								</div>
-								<div className="form-group">
-									<input type="email" className="form-control border-0 py-4" placeholder="Your Email" />
-								</div>
-								<div>
-									<button className="btn btn-primary btn-block border-0 py-3" type="submit">Subscribe Now</button>
-								</div>
-							</form>
+					</div>
+					<div className="col-md">
+						<div className="ftco-footer-widget mb-4">
+							<h2 className="ftco-heading-2">Customer Support</h2>
+							<ul className="list-unstyled">
+								<li><a href="#" className="py-2 d-block">FAQ</a></li>
+								<li><a href="#" className="py-2 d-block">Payment Option</a></li>
+								<li><a href="#" className="py-2 d-block">Booking Tips</a></li>
+								<li><a href="#" className="py-2 d-block">How it works</a></li>
+								<li><a href="#" className="py-2 d-block">Contact Us</a></li>
+							</ul>
+						</div>
+					</div>
+					<div className="col-md">
+						<div className="ftco-footer-widget mb-4">
+							<h2 className="ftco-heading-2">Have a Questions?</h2>
+							<div className="block-23 mb-3">
+								<ul>
+									<li><span className="icon icon-map-marker"></span><span className="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+									<li><a href="#"><span className="icon icon-phone"></span><span className="text">+2 392 3929 210</span></a></li>
+									<li><a href="#"><span className="icon icon-envelope"></span><span className="text">info@yourdomain.com</span></a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div className="row border-top border-light mx-xl-5 py-4">
-				<div className="col-md-6 px-xl-0">
-					<p className="mb-md-0 text-center text-md-left text-dark">
-						&copy; <a className="text-dark font-weight-semi-bold" href="#">Your Site Name</a>. All Rights Reserved. Designed
-						by
-						<a className="text-dark font-weight-semi-bold" href="https://htmlcodex.com">HTML Codex</a><br />
-						Distributed By <a href="https://themewagon.com" >ThemeWagon</a>
-					</p>
-				</div>
-				<div className="col-md-6 px-xl-0 text-center text-md-right">
-					{/* <Image className="img-fluid" src="/img/payments.png" alt="" /> */}
-				</div>
-			</div>
-		</div>
+		</footer>
 	)
 }
 
