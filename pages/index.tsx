@@ -7,7 +7,7 @@ import Back from '@/src/components/Landing/back';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation'
-import SwiperCore, { Navigation, Autoplay } from "swiper/core";
+import SwiperCore, { Navigation, Autoplay } from "swiper";
 
 const inter = Inter({ subsets: ['latin'] })
 
