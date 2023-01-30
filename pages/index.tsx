@@ -107,9 +107,9 @@ export default function Home() {
                     <a href="#" className="nav-link" data-toggle="dropdown">Dresses <i
                       className="fa fa-angle-down float-right mt-1"></i></a>
                     <div className="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0">
-                      <a href="" className="dropdown-item">Men's Dresses</a>
-                      <a href="" className="dropdown-item">Women's Dresses</a>
-                      <a href="" className="dropdown-item">Baby's Dresses</a>
+                      <a href="" className="dropdown-item">Men Dresses</a>
+                      <a href="" className="dropdown-item">Women Dresses</a>
+                      <a href="" className="dropdown-item">Baby Dresses</a>
                     </div>
                   </div>
                   <a href="" className="nav-item nav-link">Shirts</a>
@@ -233,7 +233,7 @@ export default function Home() {
                 <a href="" className="cat-img position-relative overflow-hidden mb-3">
                   {/* <Image className="img-fluid" src="/img/cat-1.jpg" alt="" /> */}
                 </a>
-                <h5 className="font-weight-semi-bold m-0">Men's dresses</h5>
+                <h5 className="font-weight-semi-bold m-0">Men dresses</h5>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 pb-1">
@@ -242,7 +242,7 @@ export default function Home() {
                 <a href="" className="cat-img position-relative overflow-hidden mb-3">
                   {/* <Image className="img-fluid" src="/img/cat-2.jpg" alt="" /> */}
                 </a>
-                <h5 className="font-weight-semi-bold m-0">Women's dresses</h5>
+                <h5 className="font-weight-semi-bold m-0">Women dresses</h5>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 pb-1">
@@ -251,7 +251,7 @@ export default function Home() {
                 <a href="" className="cat-img position-relative overflow-hidden mb-3">
                   {/* <Image className="img-fluid" src="/img/cat-3.jpg" alt="" /> */}
                 </a>
-                <h5 className="font-weight-semi-bold m-0">Baby's dresses</h5>
+                <h5 className="font-weight-semi-bold m-0">Baby dresses</h5>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 pb-1">
@@ -760,7 +760,7 @@ export default function Home() {
                 &copy; <a className="text-dark font-weight-semi-bold" href="#">Your Site Name</a>. All Rights Reserved. Designed
                 by
                 <a className="text-dark font-weight-semi-bold" href="https://htmlcodex.com">HTML Codex</a><br />
-                  Distributed By <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                  Distributed By <a href="https://themewagon.com" >ThemeWagon</a>
               </p>
             </div>
             <div className="col-md-6 px-xl-0 text-center text-md-right">
