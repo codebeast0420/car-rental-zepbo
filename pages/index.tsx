@@ -1,15 +1,19 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import TestImage from '../src/img/carousel-1.jpg';
-import TopBar from '@/src/components/global/topbar';
 import Navbar from '@/src/components/global/navbar';
 import Footer from '@/src/components/global/footer';
-// import  '@/styles/style.css';
+import Back from '@/src/components/Landing/back';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation'
+import SwiperCore, { Navigation, Autoplay } from "swiper/core";
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
+  SwiperCore.use([Autoplay,Navigation]);
   return (
     <>
       <Head>
@@ -32,29 +36,31 @@ export default function Home() {
       </Head>
       <main>
         <Navbar />
-
-        <div className="hero-wrap ftco-degree-bg" style={{ backgroundImage: "url('images/bg_1.jpg')" }}>
-          <div className="overlay"></div>
-          <div className="container">
-            <div className="row no-gutters slider-text justify-content-start align-items-center justify-content-center">
-              <div className="col-lg-8 ">
-                <div className="text w-100 text-center mb-md-5 pb-md-5">
-                  <h1 className="mb-4">Fast &amp; Easy Way To Rent A Car</h1>
-                  <p style={{ fontSize: "18px" }}>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts</p>
-                  <a href="https://vimeo.com/45830194" className="icon-wrap popup-vimeo d-flex align-items-center mt-4 justify-content-center">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="ion-ios-play"></span>
-                    </div>
-                    <div className="heading-title ml-5">
-                      <span>Easy steps for renting a car</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        <Swiper
+          slidesPerView={1}
+          modules={[Navigation]}
+          navigation={true}
+          loop={true}
+          centeredSlides={true}
+          autoplay={{
+            "delay": 2000,
+            "disableOnInteraction": false
+          }}
+          // navigation={{
+          //   nextEl: '.next-fact',
+          //   prevEl: '.prev-fact',
+          // }}
+        >
+          <SwiperSlide>
+            <Back title="Fast &amp; Easy Way To Rent A Car" img="images/csm_og-image_b5397aa5e3.jpg" type='car' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Back title="Fast &amp; Easy Way To Rent A Boat" img="images/wp1998754.jpg" type='boat' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Back title="Fast &amp; Easy Way To Rent A Motorcycle" img="images/Aprilia-Rider-Motorcycle-Wallpaper.jpg" type='motorcycle' />
+          </SwiperSlide>
+        </Swiper>
         <section className="ftco-section ftco-no-pt bg-light">
           <div className="container">
             <div className="row no-gutters">
@@ -89,7 +95,7 @@ export default function Home() {
                         <input type="submit" value="Rent A Car Now" className="btn btn-secondary py-3 px-4" />
                       </div>
                     </form>
-                    
+
                   </div>
                   <div className="col-md-8 d-flex align-items-center">
                     <div className="services-wrap rounded-right w-100">
@@ -211,7 +217,7 @@ export default function Home() {
               <div className="col-md-6 wrap-about ">
                 <div className="heading-section heading-section-white pl-md-5">
                   <span className="subheading">About us</span>
-                  <h2 className="mb-4">Welcome to Carbook</h2>
+                  <h2 className="mb-4">Welcome to ZepBo</h2>
 
                   <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                   <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word  and the Little Blind Text should turn around and return to its own, safe country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
@@ -222,7 +228,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="ftco-section">
+        {/* <section className="ftco-section">
           <div className="container">
             <div className="row justify-content-center mb-5">
               <div className="col-md-7 text-center heading-section ">
@@ -354,7 +360,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section className="ftco-section">
           <div className="container">
@@ -414,7 +420,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="ftco-counter ftco-section img bg-light" id="section-counter">
+        {/* <section className="ftco-counter ftco-section img bg-light" id="section-counter">
           <div className="overlay"></div>
           <div className="container">
             <div className="row">
@@ -452,7 +458,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <Footer />
       </main>
