@@ -43,110 +43,31 @@ export default function Home() {
           loop={true}
           centeredSlides={true}
           autoplay={{
-            "delay": 2000,
+            "delay": 2500,
             "disableOnInteraction": false
-          }}
-          // navigation={{
-          //   nextEl: '.next-fact',
-          //   prevEl: '.prev-fact',
-          // }}
-        >
+          }} >
           <SwiperSlide>
-            <Back title="Fast &amp; Easy Way To Rent A Car" img="images/csm_og-image_b5397aa5e3.jpg" type='car' />
+            <Back title="Happy &amp; Exciting Way with Excellent RV" img="images/533758.jpg" />
           </SwiperSlide>
           <SwiperSlide>
-            <Back title="Fast &amp; Easy Way To Rent A Boat" img="images/wp1998754.jpg" type='boat' />
+            <Back title="Happy &amp; Exciting Way with Excellent RV" img="images/8fG73k.jpg" />
           </SwiperSlide>
           <SwiperSlide>
-            <Back title="Fast &amp; Easy Way To Rent A Motorcycle" img="images/Aprilia-Rider-Motorcycle-Wallpaper.jpg" type='motorcycle' />
+            <Back title="Happy &amp; Exciting Way with Excellent RV" img="images/1355397871704006805.jpg" />
           </SwiperSlide>
         </Swiper>
-        <section className="ftco-section ftco-no-pt bg-light">
-          <div className="container">
-            <div className="row no-gutters">
-              <div className="col-md-12	featured-top">
-                <div className="row no-gutters">
-                  <div className="col-md-4 d-flex align-items-center">
-                    <form action="#" className="request-form bg-primary">
-                      <h2>Make your trip</h2>
-                      <div className="form-group">
-                        <label htmlFor="" className="label">Pick-up location</label>
-                        <input type="text" className="form-control" placeholder="City, Airport, Station, etc" />
-                      </div>
-                      <div className="form-group">
-                        <label htmlFor="" className="label">Drop-off location</label>
-                        <input type="text" className="form-control" placeholder="City, Airport, Station, etc" />
-                      </div>
-                      <div className="d-flex">
-                        <div className="form-group mr-2">
-                          <label htmlFor="" className="label">Pick-up date</label>
-                          <input type="text" className="form-control" id="book_pick_date" placeholder="Date" />
-                        </div>
-                        <div className="form-group ml-2">
-                          <label htmlFor="" className="label">Drop-off date</label>
-                          <input type="text" className="form-control" id="book_off_date" placeholder="Date" />
-                        </div>
-                      </div>
-                      <div className="form-group">
-                        <label htmlFor="" className="label">Pick-up time</label>
-                        <input type="text" className="form-control" id="time_pick" placeholder="Time" />
-                      </div>
-                      <div className="form-group">
-                        <input type="submit" value="Rent A Car Now" className="btn btn-secondary py-3 px-4" />
-                      </div>
-                    </form>
-
-                  </div>
-                  <div className="col-md-8 d-flex align-items-center">
-                    <div className="services-wrap rounded-right w-100">
-                      <h3 className="heading-section mb-4">Better Way to Rent Your Perfect Cars</h3>
-                      <div className="row d-flex mb-4">
-                        <div className="col-md-4 d-flex align-self-stretch ">
-                          <div className="services w-100 text-center">
-                            <div className="icon d-flex align-items-center justify-content-center"><span className="flaticon-route"></span></div>
-                            <div className="text w-100">
-                              <h3 className="heading mb-2">Choose Your Pickup Location</h3>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-md-4 d-flex align-self-stretch ">
-                          <div className="services w-100 text-center">
-                            <div className="icon d-flex align-items-center justify-content-center"><span className="flaticon-handshake"></span></div>
-                            <div className="text w-100">
-                              <h3 className="heading mb-2">Select the Best Deal</h3>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-md-4 d-flex align-self-stretch ">
-                          <div className="services w-100 text-center">
-                            <div className="icon d-flex align-items-center justify-content-center"><span className="flaticon-rent"></span></div>
-                            <div className="text w-100">
-                              <h3 className="heading mb-2">Reserve Your Rental Car</h3>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <p><a href="#" className="btn btn-primary py-3 px-4">Reserve Your Perfect Car</a></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
 
         <section className="ftco-section ftco-no-pt bg-light">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-12 heading-section text-center  mb-5">
                 <span className="subheading">What we offer</span>
-                <h2 className="mb-2">Feeatured Vehicles</h2>
+                <h2 className="mb-2">Featured Vehicles</h2>
               </div>
             </div>
             <div className="row">
               <div className="col-md-12">
-                <div className="carousel-car owl-carousel">
+                <div className="carousel-car">
                   <div className="item">
                     <div className="car-wrap rounded ">
                       <div className="img rounded d-flex align-items-end" style={{ backgroundImage: "url(images/car-1.jpg)" }}>
@@ -228,7 +149,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* <section className="ftco-section">
+        <section className="ftco-section">
           <div className="container">
             <div className="row justify-content-center mb-5">
               <div className="col-md-7 text-center heading-section ">
@@ -360,7 +281,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
 
         <section className="ftco-section">
           <div className="container">
@@ -420,7 +341,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* <section className="ftco-counter ftco-section img bg-light" id="section-counter">
+        <section className="ftco-counter ftco-section img bg-light" id="section-counter">
           <div className="overlay"></div>
           <div className="container">
             <div className="row">
@@ -458,7 +379,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
 
         <Footer />
       </main>
