@@ -3,7 +3,6 @@ import React, {FC} from 'react';
 interface BackProps {
 	title: string;
 	img: string;
-	type: string;
 }
 
 const Back: FC<BackProps> = (props) => {
@@ -15,13 +14,12 @@ const Back: FC<BackProps> = (props) => {
 					<div className="col-lg-8 ">
 						<div className="text w-100 text-center mb-md-5 pb-md-5">
 							<h1 className="mb-4">{props.title}</h1>
-							<p style={{ fontSize: "18px" }}>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts</p>
 							<a href="https://vimeo.com/45830194" className="icon-wrap popup-vimeo d-flex align-items-center mt-4 justify-content-center">
 								<div className="icon d-flex align-items-center justify-content-center">
 									<span className="ion-ios-play"></span>
 								</div>
 								<div className="heading-title ml-5">
-									<span>Easy steps for renting a {props.type}</span>
+									<span>Easy steps for buying a RV</span>
 								</div>
 							</a>
 						</div>
