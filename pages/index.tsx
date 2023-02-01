@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Navbar from '@/src/components/global/navbar';
 import Footer from '@/src/components/global/footer';
-import Back from '../src/components/landing/back';
+import Back from '@/src/components/landing/back';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation'
