@@ -1,7 +1,10 @@
 import React, {FC} from 'react';
-import { BackProps } from '@/src/type';
+// import { BackProps } from '@/src/type';
+interface BackType {
+	img: string;
+}
 
-const Back: FC<BackProps> = (props) => {
+const Back: FC<BackType> = (props) => {
 	return (
 		<div className="hero-wrap ftco-degree-bg" style={{ backgroundImage: `url(${props.img})` }}>
 			<div className="overlay"></div>
