@@ -36,14 +36,14 @@ export default function Home() {
           "disableOnInteraction": false
         }} >
         <SwiperSlide>
-          <Back img="images/533758.jpg" />
+          <Back  />
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <Back img="images/8fG73k.jpg" />
         </SwiperSlide>
         <SwiperSlide>
           <Back img="images/1355397871704006805.jpg" />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
       <Feature>
         <div className='row'>
