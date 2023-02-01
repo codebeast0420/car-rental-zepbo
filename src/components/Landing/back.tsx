@@ -3,7 +3,7 @@ import { BackProps } from '@/src/type';
 
 const Back: FC<BackProps> = (props) => {
 	return (
-		<div className="hero-wrap ftco-degree-bg" style={{ backgroundImage: `url(${props.img})` }}>
+		<div className="hero-wrap hero-wrap-2" style={{ backgroundImage: `url(${props.img})` }}>
 			<div className="overlay"></div>
 			<div className="container">
 				<div className="row no-gutters slider-text justify-content-start align-items-center justify-content-center">
