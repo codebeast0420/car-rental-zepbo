@@ -1,11 +1,6 @@
 import React, { FC } from "react";
-
-interface BlogItemType {
-	date: string;
-	subscriber: string;
-	title: string;
-	img: string;
-}
+import { BlogItemType } from "@/src/type";
+import BlueBtn from "../global/blueBtn";
 
 const BlogItem: FC<BlogItemType> = (props) => {
 	return (
@@ -20,7 +15,7 @@ const BlogItem: FC<BlogItemType> = (props) => {
 						<div><a href="#" className="meta-chat"><span className="icon-chat"></span> 3</a></div>
 					</div>
 					<h3 className="heading mt-2"><a href="#">{props.title}</a></h3>
-					<p><a href="#" className="btn btn-primary">Read more</a></p>
+					<p><BlueBtn title="Read more"/></p>
 				</div>
 			</div>
 		</div>

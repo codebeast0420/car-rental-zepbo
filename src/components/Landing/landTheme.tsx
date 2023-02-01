@@ -1,11 +1,8 @@
 import React, { FC } from "react";
 import Head from 'next/head'
+import { HasChildren } from "@/src/type";
 
-interface MyLandTheme {
-	children: React.ReactNode;
-}
-
-const LandTheme: FC<MyLandTheme> = (props) => {
+const LandTheme: FC<HasChildren> = (props) => {
 	return (
 		<>
 			<Head>

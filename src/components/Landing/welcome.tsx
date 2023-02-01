@@ -1,10 +1,5 @@
 import React, { FC } from 'react';
-
-interface WelcomeType {
-	company: string;
-	title: string;
-	children: React.ReactNode;
-}
+import { WelcomeType } from '@/src/type';
 
 const Welcome: FC<WelcomeType> = (props) => {
 	return (

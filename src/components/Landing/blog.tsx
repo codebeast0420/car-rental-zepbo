@@ -1,10 +1,7 @@
 import React, { FC } from "react";
+import { HasChildren } from "@/src/type";
 
-interface BlogType {
-	children: React.ReactNode;
-}
-
-const Blog: FC<BlogType> = (props) => {
+const Blog: FC<HasChildren> = (props) => {
 	return (
 		<section className="ftco-section">
 			<div className="container">

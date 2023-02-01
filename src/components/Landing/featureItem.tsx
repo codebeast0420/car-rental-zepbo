@@ -1,11 +1,5 @@
 import React, { FC } from "react";
-
-interface FeatureItemType {
-	name: string;
-	url: string;
-	price: string;
-	property: string;
-}
+import { FeatureItemType } from "@/src/type";
 
 const FeatureItem: FC<FeatureItemType> = (props) => {
 	return (
