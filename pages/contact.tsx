@@ -9,7 +9,7 @@ import React, { FC } from "react";
 const Contact: FC = () => {
 	return (
 		<ContactTheme>
-			<Navbar />
+			<Navbar current={6}/>
 			<MainImage current="Contact" title="Contact Us" />
 			<ContactForm />
 			<Footer />
