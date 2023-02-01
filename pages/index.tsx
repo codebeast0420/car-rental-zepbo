@@ -2,20 +2,20 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Navbar from '@/src/components/global/navbar';
 import Footer from '@/src/components/global/footer';
-import Back from '@/src/components/Landing/back';
+import Back from '@/src/components/landing/back';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation'
 import SwiperCore, { Navigation, Autoplay } from "swiper";
-import SiteState from '@/src/components/Landing/siteState';
-import Feature from '@/src/components/Landing/feature';
-import FeatureItem from '@/src/components/Landing/featureItem';
-import Welcome from '@/src/components/Landing/welcome';
-import Services from '@/src/components/Landing/services';
-import Service from '@/src/components/Landing/service';
-import Blog from '@/src/components/Landing/blog';
-import BlogItem from '@/src/components/Landing/blogItem';
-import LandTheme from '@/src/components/Landing/landTheme';
+import SiteState from '@/src/components/landing/siteState';
+import Feature from '@/src/components/landing/feature';
+import FeatureItem from '@/src/components/landing/featureItem';
+import Welcome from '@/src/components/landing/welcome';
+import Services from '@/src/components/landing/services';
+import Service from '@/src/components/landing/service';
+import Blog from '@/src/components/landing/blog';
+import BlogItem from '@/src/components/landing/blogItem';
+import LandTheme from '@/src/components/landing/landTheme';
 
 const inter = Inter({ subsets: ['latin'] })
 

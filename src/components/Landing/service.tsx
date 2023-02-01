@@ -1,11 +1,7 @@
 import React, { FC } from 'react';
+import { TitleDescriptionType } from '@/src/type';
 
-interface ServiceType {
-	title: string;
-	description: string;
-}
-
-const Service: FC<ServiceType> = (props) => {
+const Service: FC<TitleDescriptionType> = (props) => {
 	return (
 		<div className="col-md-3">
 			<div className="services services-2 w-100 text-center">

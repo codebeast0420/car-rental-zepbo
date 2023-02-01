@@ -1,8 +1,5 @@
 import React, {FC} from 'react';
-
-interface BackProps {
-	img: string;
-}
+import { BackProps } from '@/src/type';
 
 const Back: FC<BackProps> = (props) => {
 	return (

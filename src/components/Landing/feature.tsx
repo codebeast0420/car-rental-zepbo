@@ -1,10 +1,7 @@
 import React, { FC } from "react";
+import { HasChildren } from "@/src/type";
 
-interface FeatureType {
-	children: React.ReactNode
-}
-
-const Feature: FC<FeatureType> = (props) => {
+const Feature: FC<HasChildren> = (props) => {
 	return (
 		<section className="ftco-section ftco-no-pt bg-light">
 			<div className="container">

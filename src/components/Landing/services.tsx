@@ -1,10 +1,7 @@
 import React, { FC } from 'react';
+import { HasChildren } from '@/src/type';
 
-interface ServicesType {
-	children: React.ReactNode
-}
-
-const Services: FC<ServicesType> = (props) => {
+const Services: FC<HasChildren> = (props) => {
 	return (
 		<section className="ftco-section">
 			<div className="container">
