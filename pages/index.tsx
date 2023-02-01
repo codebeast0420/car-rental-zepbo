@@ -24,7 +24,7 @@ export default function Home() {
   SwiperCore.use([Autoplay, Navigation]);
   return (
     <LandTheme>
-      <Navbar />
+      <Navbar current={1}/>
       <Swiper
         slidesPerView={1}
         modules={[Navigation]}

@@ -43,3 +43,7 @@ export interface InputBoxType {
 	value?: string;
 	change?: () => void;
 }
+
+export interface NavbarType {
+	current: number;
+}

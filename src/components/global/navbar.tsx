@@ -1,7 +1,8 @@
 import Link from "next/link";
 import React, { FC } from "react"
+import { NavbarType } from "@/src/type";
 
-const Navbar: FC = () => {
+const Navbar: FC<NavbarType> = (props) => {
 
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -12,12 +13,12 @@ const Navbar: FC = () => {
 				</button>
 				<div className="collapse navbar-collapse" id="ftco-nav">
 					<ul className="navbar-nav ml-auto">
-						<li className="nav-item active"><Link href="/" className="nav-link">Home</Link></li>
-						<li className="nav-item"><a href="#" className="nav-link">About</a></li>
-						<li className="nav-item"><a href="#" className="nav-link">Services</a></li>
-						<li className="nav-item"><a href="#" className="nav-link">Inventories</a></li>
-						<li className="nav-item"><a href="#" className="nav-link">Blog</a></li>
-						<li className="nav-item"><Link href="/contact" className="nav-link">Contact</Link></li>
+						<li className={props.current == 1 ? "nav-item active" : "nav-item"}><Link href="/" className="nav-link">Home</Link></li>
+						<li className={props.current == 2 ? "nav-item active" : "nav-item"}><Link href="#" className="nav-link">About</Link></li>
+						<li className={props.current == 3 ? "nav-item active" : "nav-item"}><Link href="#" className="nav-link">Services</Link></li>
+						<li className={props.current == 4 ? "nav-item active" : "nav-item"}><Link href="#" className="nav-link">Inventories</Link></li>
+						<li className={props.current == 5 ? "nav-item active" : "nav-item"}><Link href="#" className="nav-link">Blog</Link></li>
+						<li className={props.current == 6 ? "nav-item active" : "nav-item"}><Link href="/contact" className="nav-link">Contact</Link></li>
 					</ul>
 				</div>
 			</div>
