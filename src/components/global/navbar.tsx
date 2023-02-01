@@ -1,17 +1,19 @@
 import Link from "next/link";
-import React, { FC } from "react"
+import React, { FC, useState } from "react"
 import { NavbarType } from "@/src/type";
 
 const Navbar: FC<NavbarType> = (props) => {
+
+	const [menuShow, setMenuShow] = useState(false);
 
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 			<div className="container">
 				<a className="navbar-brand" href="#">Zep<span>Bo</span></a>
-				<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<button className="navbar-toggler" type="button" onClick={() => setMenuShow(!menuShow)}>
 					<span className="oi oi-menu"></span> Menu
 				</button>
-				<div className="collapse navbar-collapse" id="ftco-nav">
+				<div className={menuShow ? "navbar-collapse" : "collapse navbar-collapse"}>
 					<ul className="navbar-nav ml-auto">
 						<li className={props.current == 1 ? "nav-item active" : "nav-item"}><Link href="/" className="nav-link">Home</Link></li>
 						<li className={props.current == 2 ? "nav-item active" : "nav-item"}><Link href="#" className="nav-link">About</Link></li>
