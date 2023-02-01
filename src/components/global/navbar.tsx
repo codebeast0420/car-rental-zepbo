@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { FC } from "react"
 
 const Navbar: FC = () => {
@@ -11,12 +12,12 @@ const Navbar: FC = () => {
 				</button>
 				<div className="collapse navbar-collapse" id="ftco-nav">
 					<ul className="navbar-nav ml-auto">
-						<li className="nav-item active"><a href="/" className="nav-link">Home</a></li>
+						<li className="nav-item active"><Link href="/" className="nav-link">Home</Link></li>
 						<li className="nav-item"><a href="#" className="nav-link">About</a></li>
 						<li className="nav-item"><a href="#" className="nav-link">Services</a></li>
 						<li className="nav-item"><a href="#" className="nav-link">Inventories</a></li>
 						<li className="nav-item"><a href="#" className="nav-link">Blog</a></li>
-						<li className="nav-item"><a href="/contact" className="nav-link">Contact</a></li>
+						<li className="nav-item"><Link href="/contact" className="nav-link">Contact</Link></li>
 					</ul>
 				</div>
 			</div>
