@@ -1,9 +1,9 @@
-// import Image from 'next/image'
+import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Navbar from '@/src/components/global/navbar';
 import Footer from '@/src/components/global/footer';
-// import Back from '@/src/components/landing/back';
-// import { Swiper, SwiperSlide } from 'swiper/react';
+import Back from '@/src/components/landing/back';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation'
 import SwiperCore, { Navigation, Autoplay } from "swiper";
@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <LandTheme>
       <Navbar />
-      {/* <Swiper
+      <Swiper
         slidesPerView={1}
         modules={[Navigation]}
         navigation={true}
@@ -44,7 +44,7 @@ export default function Home() {
         <SwiperSlide>
           <Back img="images/1355397871704006805.jpg" />
         </SwiperSlide>
-      </Swiper> */}
+      </Swiper>
       <Feature>
         <div className='row'>
           <FeatureItem name='Mercedes Grand Sedan' url='images/car-1.jpg' price='$27,525' property='Cheverolet' />
