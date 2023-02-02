@@ -9,11 +9,16 @@ import React, { FC } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation'
-import { Pagination } from "swiper";
+import SwiperCore, { Pagination, Autoplay } from "swiper";
 import SiteState from '@/src/components/Landing/siteState';
 import OurStory from '@/src/components/about/ourStory';
+import Services from '@/src/components/Landing/services';
+import Service from '@/src/components/Landing/service';
+import WhyChoose from '@/src/components/about/whyChoose';
 
 const About: FC = () => {
+
+	SwiperCore.use([Autoplay, Pagination]);
 
 	return (
 		<MainTheme>
@@ -50,10 +55,24 @@ const About: FC = () => {
 					RV dealer. With this goal in mind, we offer our customers one-stop shopping.'
 				img='images/our_story.jpg'
 			/>
+			<Services>
+				<Service title='Selling Best RVs' description='A small river named Duden flows by their place and supplies it with the necessary regelialia.' />
+				<Service title='Repair RVs' description='A small river named Duden flows by their place and supplies it with the necessary regelialia.' />
+				<Service title='Rental Service' description='A small river named Duden flows by their place and supplies it with the necessary regelialia.' />
+				<Service title='Others' description='A small river named Duden flows by their place and supplies it with the necessary regelialia.' />
+			</Services>
+			<WhyChoose
+				title='Why Choose ZepBo'
+				img='images/why-choose.jpg'
+			/>
 			<ClientSection>
 				<Swiper
 					pagination={true}
 					modules={[Pagination]}
+					autoplay={{
+						"delay": 2500,
+						"disableOnInteraction": false
+					}}
 					breakpoints={{
 						320: {
 							// direction: "vertical",
