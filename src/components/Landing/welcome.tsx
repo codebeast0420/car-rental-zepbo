@@ -6,7 +6,7 @@ const Welcome: FC<WelcomeType> = (props) => {
 		<section className="ftco-section ftco-about">
 			<div className="container">
 				<div className="row no-gutters">
-					<div className="col-md-6 p-md-5 img img-2 d-flex justify-content-center align-items-center" style={{ backgroundImage: "url(images/about.jpg)" }}>
+					<div className="col-md-6 p-md-5 img img-2 d-flex justify-content-center align-items-center" style={{ backgroundImage: "url(images/bg_3.jpg)" }}>
 					</div>
 					<div className="col-md-6 wrap-about ">
 						<div className="heading-section heading-section-white pl-md-5">

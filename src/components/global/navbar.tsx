@@ -16,7 +16,7 @@ const Navbar: FC<NavbarType> = (props) => {
 				<div className={menuShow ? "navbar-collapse" : "collapse navbar-collapse"}>
 					<ul className="navbar-nav ml-auto">
 						<li className={props.current == 1 ? "nav-item active" : "nav-item"}><Link href="/" className="nav-link">Home</Link></li>
-						<li className={props.current == 2 ? "nav-item active" : "nav-item"}><Link href="#" className="nav-link">About</Link></li>
+						<li className={props.current == 2 ? "nav-item active" : "nav-item"}><Link href="/about" className="nav-link">About</Link></li>
 						<li className={props.current == 3 ? "nav-item active" : "nav-item"}><Link href="#" className="nav-link">Services</Link></li>
 						<li className={props.current == 4 ? "nav-item active" : "nav-item"}><Link href="#" className="nav-link">Inventories</Link></li>
 						<li className={props.current == 5 ? "nav-item active" : "nav-item"}><Link href="#" className="nav-link">Blog</Link></li>
