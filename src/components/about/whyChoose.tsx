@@ -7,7 +7,7 @@ const WhyChoose: FC<TitleDescriptionType> = (props) => {
 			<div className='our-story ftco-intro' style={{ backgroundImage: `url('images/why-choose.jpg')` }}></div>
 			<div className='heading-section col-md-6 bg-light justify-content-center d-flex flex-column p-5'>
 				<h2 className='mb-3 text-center'>{props.title}</h2>
-				<p className='mt-1'>We know that when it comes to used RV dealers, you have got options. That’s why at El Monte RV, we work hard to be the best of the best.
+				<p className='mt-1'>We know that when it comes to used RV dealers, you have got options. That’s why at ZepBo RV, we work hard to be the best of the best.
 					Our inventory features an excellent, curated selection of professionally maintained motorhomes for
 					every budget, and our national network of RV dealer locations makes it easy to get what you need fast.</p>
 				<p>We also stand by the products we sell, conducting multi-point inspections on all our units
