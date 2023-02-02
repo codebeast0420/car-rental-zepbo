@@ -26,7 +26,7 @@ const About: FC = () => {
 				</p>
 				<p>Our 12+ acre facility includes a large air-conditioned showroom, a 12,000 square foot parts and accessory department,
 					and a 20-bay service facility. Furthermore, we offer RV storage, LP gas and an RV dump station.
-					Whether you're in the market for a new RV or a pre-owned RV, need fast and quality service,
+					Whether you are in the market for a new RV or a pre-owned RV, need fast and quality service,
 					or just want to see the newest parts and accessories available, ZepBo is the only place you
 					will ever need to remember.
 					Our air-conditioned showroom is always stocked with the newest models for your viewing pleasure,
