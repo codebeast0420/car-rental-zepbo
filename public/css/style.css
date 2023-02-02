@@ -12954,7 +12954,7 @@ h5,
   right: 0;
   bottom: 0;
   content: '';
-  background: #01d28e;
+  background: #5f706b;
   z-index: -2;
   width: 63%;
 }
@@ -13033,7 +13033,7 @@ h5,
     width: 40%;
     content: '';
     opacity: 1;
-    background: #01d28e;
+    background: #5f706b;
     -ms-transform: rotate(20deg);
     /* IE 9 */
     -webkit-transform: rotate(20deg);
