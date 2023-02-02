@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const MainImage: FC<MainImageType> = (props) => {
 	return (
-		<section className="hero-wrap hero-wrap-2 js-fullheight" style={{ backgroundImage: "url('images/bg_3.jpg')" }} >
+		<section className="hero-wrap hero-wrap-2 js-fullheight" style={{ backgroundImage: `url('${props.img}')` }} >
 			<div className="overlay"></div>
 			<div className="container">
 				<div className="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
