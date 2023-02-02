@@ -10,9 +10,9 @@ const ContactForm: FC = () => {
 				<div className="row d-flex mb-5 contact-info">
 					<div className="col-md-4">
 						<div className="row mb-5">
-							<ContactLabel title="Adress" description="198 West 21th Street, Suite 721 New York NY 10016" />
-							<ContactLabel title="Phone" description="+ 1235 2355 98" />
-							<ContactLabel title="Email" description="info@yoursite.com" />
+							<ContactLabel title="Adress" img='icon-map-o' description="198 West 21th Street, Suite 721 New York NY 10016" />
+							<ContactLabel title="Phone" img='icon-mobile-phone' description="+ 1235 2355 98" />
+							<ContactLabel title="Email" img='icon-envelope-o' description="info@yoursite.com" />
 						</div>
 					</div>
 					<div className="col-md-8 block-9 mb-md-5">
