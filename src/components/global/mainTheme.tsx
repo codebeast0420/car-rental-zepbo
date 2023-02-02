@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import Head from 'next/head';
 import { HasChildren } from '@/src/type';
 
-const ContactTheme: FC<HasChildren> = (porps) => {
+const MainTheme: FC<HasChildren> = (porps) => {
 	return (
 		<>
 			<Head>
@@ -19,4 +19,4 @@ const ContactTheme: FC<HasChildren> = (porps) => {
 	)
 }
 
-export default ContactTheme;
+export default MainTheme;

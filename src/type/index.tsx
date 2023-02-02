@@ -25,6 +25,7 @@ export interface FeatureItemType {
 export interface TitleDescriptionType {
 	title?: string;
 	description?: string;
+	img?: string
 }
 
 export interface WelcomeType {
@@ -36,6 +37,7 @@ export interface WelcomeType {
 export interface MainImageType {
 	title: string;
 	current: string;
+	img: string;
 }
 
 export interface InputBoxType {
@@ -46,4 +48,11 @@ export interface InputBoxType {
 
 export interface NavbarType {
 	current: number;
+}
+
+export interface ClientType {
+	name: string;
+	position: string;
+	description: string;
+	img: string;
 }
