@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 
-const BlogPagination: FC = () => {
+const Pagination: FC = () => {
 	return (
 		<div className="row mt-5">
 			<div className="col text-center">
@@ -20,4 +20,4 @@ const BlogPagination: FC = () => {
 	)
 }
 
-export default BlogPagination;
+export default Pagination;
