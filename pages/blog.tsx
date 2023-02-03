@@ -28,7 +28,7 @@ const Blog: FC = () => {
 						subscriber="Admin"
 						commits={3}
 						date="Oct. 29, 2019"
-						img="images/image_1.jpg"
+						img="images/image_2.jpg"
 						description="A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
 						link="#"
 					/>
@@ -37,7 +37,7 @@ const Blog: FC = () => {
 						subscriber="Admin"
 						commits={3}
 						date="Oct. 29, 2019"
-						img="images/image_1.jpg"
+						img="images/image_3.jpg"
 						description="A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
 						link="#"
 					/>
@@ -46,7 +46,7 @@ const Blog: FC = () => {
 						subscriber="Admin"
 						commits={3}
 						date="Oct. 29, 2019"
-						img="images/image_1.jpg"
+						img="images/image_4.jpg"
 						description="A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
 						link="#"
 					/>
@@ -55,7 +55,7 @@ const Blog: FC = () => {
 						subscriber="Admin"
 						commits={3}
 						date="Oct. 29, 2019"
-						img="images/image_1.jpg"
+						img="images/image_5.jpg"
 						description="A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
 						link="#"
 					/>
@@ -64,7 +64,7 @@ const Blog: FC = () => {
 						subscriber="Admin"
 						commits={3}
 						date="Oct. 29, 2019"
-						img="images/image_1.jpg"
+						img="images/image_6.jpg"
 						description="A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
 						link="#"
 					/>
