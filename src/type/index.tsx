@@ -9,10 +9,13 @@ export interface BackProps {
 }
 
 export interface BlogItemType {
-	date: string;
-	subscriber: string;
-	title: string;
-	img: string;
+	date?: string;
+	subscriber?: string;
+	title?: string;
+	img?: string;
+	commits?: number;
+	description?: string;
+	link?: string;
 }
 
 export interface FeatureItemType {

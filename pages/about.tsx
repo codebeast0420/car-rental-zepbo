@@ -43,7 +43,6 @@ const About: FC = () => {
 					<div className="row justify-content-end">
 						<div className="col-md-6 heading-section heading-section-white">
 							<h2 className="mb-3">We are Here for your Joy</h2>
-							{/* <a href="#" className="btn btn-primary btn-lg">Become A Driver</a> */}
 						</div>
 					</div>
 				</div>
