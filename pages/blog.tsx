@@ -1,4 +1,4 @@
-import BlogPagination from "@/src/components/blog/blogPagination";
+import Pagination from "@/src/components/global/pagination";
 import BlogTheme from "@/src/components/blog/blogTheme";
 import ExtendBlogItem from "@/src/components/blog/extendBlogItem";
 import Footer from "@/src/components/global/footer";
@@ -69,7 +69,7 @@ const Blog: FC = () => {
 						link="#"
 					/>
 				</div>
-				<BlogPagination />
+				<Pagination />
 			</BlogTheme>
 			<Footer />
 		</MainTheme>
