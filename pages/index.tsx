@@ -37,13 +37,13 @@ export default function Home() {
           "disableOnInteraction": false
         }} >
         <SwiperSlide>
-          <Back img="images/533758.jpg"/>
+          <Back img="images/back-1.jpg"/>
         </SwiperSlide>
         <SwiperSlide>
-          <Back img="images/8fG73k.jpg" />
+          <Back img="images/back-2.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <Back img="images/1355397871704006805.jpg" />
+          <Back img="images/back-3.jpg" />
         </SwiperSlide>
       </Swiper>
       <Feature>
