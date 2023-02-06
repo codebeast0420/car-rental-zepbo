@@ -9,7 +9,7 @@ const InventorySection: FC<HasChildren> = (props) => {
 				<div className="row">
 					{props.children}
 				</div>
-				<Pagination />
+				{/* <Pagination /> */}
 			</div>
 		</section>
 	)

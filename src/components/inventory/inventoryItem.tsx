@@ -3,7 +3,7 @@ import { TitleDescriptionType } from "@/src/type";
 
 const InventoryItem: FC<TitleDescriptionType> = (props) => {
 	return (
-		<div className="col-md-4">
+		<div style={{margin: "10px"}}>
 			<div className="car-wrap rounded">
 				<div className="img rounded d-flex align-items-end" style={{backgroundImage: `url(${props.img})`}}>
 				</div>
