@@ -110,3 +110,9 @@ a {
 
 
 /* ---------------------------------------- */
+.rv-item-info {
+  color: #888;
+  border-right: solid 1px #888;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
