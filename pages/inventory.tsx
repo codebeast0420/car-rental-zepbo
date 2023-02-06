@@ -5,6 +5,7 @@ import MainImage from "@/src/components/global/mainImage";
 import React, { FC } from "react";
 import InventorySection from "@/src/components/inventory/inventorySection";
 import InventoryItem from "@/src/components/inventory/inventoryItem";
+import Pricing from "@/src/components/inventory/pricing";
 
 const Inventory: FC = () => {
 	return (
@@ -19,6 +20,7 @@ const Inventory: FC = () => {
 				<InventoryItem img="images/car-2.jpg"/>
 				<InventoryItem img="images/car-3.jpg"/>
 			</InventorySection>
+			<Pricing />
 			<Footer />
 		</MainTheme>
 	)
