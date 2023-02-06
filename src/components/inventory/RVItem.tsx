@@ -15,7 +15,7 @@ const RVItem:FC<RVItemType> = (props) => {
 			<td className="product-name">
 				<h3>Cheverolet SUV Car</h3>
 				<p className="mb-0 rated">
-					<span>rated:</span>
+					<span>rated: </span>
 					<span className="ion-ios-star"></span>
 					<span className="ion-ios-star"></span>
 					<span className="ion-ios-star"></span>
