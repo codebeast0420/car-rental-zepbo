@@ -1,10 +1,17 @@
 import React, { FC } from 'react';
-import { TitleDescriptionType } from '@/src/type';
+import Image from 'next/image';
 
-const RVItem: FC<TitleDescriptionType> = (props) => {
+interface RVItemType {
+	img: string,
+}
+
+const RVItem:FC<RVItemType> = (props) => {
 	return (
 		<tr className="">
-			<td className="car-image"><div className="img" style={{ backgroundImage: `url(${props.img})` }}></div></td>
+			<td className="car-image">
+				<Image src={props.img} alt='car' width={150} height={100} />
+				<Image src="/images/floor-plan.png" alt='floor-plan' width={150} height={100} />
+			</td>
 			<td className="product-name">
 				<h3>Cheverolet SUV Car</h3>
 				<p className="mb-0 rated">
@@ -15,35 +22,36 @@ const RVItem: FC<TitleDescriptionType> = (props) => {
 					<span className="ion-ios-star"></span>
 					<span className="ion-ios-star"></span>
 				</p>
+				<h3>$ 30,928</h3>
 			</td>
 
 			<td className="price d-flex justify-content-around">
 				<div className='rv-item-info'>
-					<p><small style={{color:"#1089ff"}}>Class</small></p>
+					<p><small style={{ color: "#1089ff" }}>Class</small></p>
 					<p>Class C</p>
 				</div>
 				<div className='rv-item-info'>
-					<p><small style={{color:"#1089ff"}}>Manufacturer</small></p>
+					<p><small style={{ color: "#1089ff" }}>Manufacturer</small></p>
 					<p>THOR</p>
 				</div>
 				<div className='rv-item-info'>
-					<p><small style={{color:"#1089ff"}}>Model</small></p>
+					<p><small style={{ color: "#1089ff" }}>Model</small></p>
 					<p>22 E</p>
 				</div>
 				<div className='rv-item-info'>
-					<p><small style={{color:"#1089ff"}}>Location</small></p>
+					<p><small style={{ color: "#1089ff" }}>Location</small></p>
 					<p>Orlando</p>
 				</div>
 			</td>
 
-			<td className="price">
+			{/* <td className="price">
 				<div className="price-rate">
-					<h3>
+					<p>
 						<span className="num">$ 30,993</span>
-					</h3>
-					<h3 style={{fontWeight:'600'}}>Our Price</h3>
+					</p>
+					<p style={{ fontWeight: '600' }}>Our Price</p>
 				</div>
-			</td>
+			</td> */}
 		</tr>
 	)
 }

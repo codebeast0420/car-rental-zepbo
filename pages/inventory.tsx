@@ -57,10 +57,10 @@ const Inventory: FC = () => {
 				</Swiper>
 			</InventorySection>
 			<MainListBox>
-				<RVItem img="images/car-1.jpg" />
-				<RVItem img="images/car-2.jpg" />
-				<RVItem img="images/car-3.jpg" />
-				<RVItem img="images/car-4.jpg" />
+				<RVItem img="/images/car-1.jpg" />
+				<RVItem img="/images/car-2.jpg" />
+				<RVItem img="/images/car-3.jpg" />
+				<RVItem img="/images/car-4.jpg" />
 			</MainListBox>
 			<Footer />
 		</MainTheme>

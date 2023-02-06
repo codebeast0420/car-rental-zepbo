@@ -1,5 +1,6 @@
 import React, { FC } from "react";
 import { HasChildren } from "@/src/type";
+import PaginationBar from "../global/pagination";
 
 const MainListBox: FC<HasChildren> = (props) => {
 	return (
@@ -16,6 +17,7 @@ const MainListBox: FC<HasChildren> = (props) => {
 						</div>
 					</div>
 				</div>
+				<PaginationBar />
 			</div>
 		</section>
 	)
