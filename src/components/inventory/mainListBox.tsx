@@ -4,16 +4,14 @@ import PaginationBar from "../global/pagination";
 
 const MainListBox: FC<HasChildren> = (props) => {
 	return (
-		<section className="ftco-section ftco-cart">
+		<section className="ftco-cart  col-md-8">
 			<div className="container">
 				<div className="row">
-					<div className="col-md-12">
+					<div className="col-sm-12">
 						<div className="car-list">
-							<table className="table">
-								<tbody>
-									{props.children}
-								</tbody>
-							</table>
+							<div>
+								{props.children}
+							</div>
 						</div>
 					</div>
 				</div>

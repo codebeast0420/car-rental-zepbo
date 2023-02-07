@@ -59,3 +59,14 @@ export interface ClientType {
 	description: string;
 	img: string;
 }
+
+export interface FilterItemType {
+	label: string;
+	children: React.ReactNode
+}
+
+export interface FilterConsType {
+	title: string;
+	number: number;
+	id?: string;
+}
