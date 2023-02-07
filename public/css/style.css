@@ -14359,3 +14359,23 @@ textarea.form-control {
     flex-direction: column;
   }
 }
+
+.select-num {
+  height: 40px !important;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.select-sort {
+  height: 40px !important;
+  width: 30%;
+  font-size: 15px;
+}
+
+.sort-bar {
+  background-color: #6c757d;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
