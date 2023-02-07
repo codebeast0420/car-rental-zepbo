@@ -29,7 +29,7 @@ const RVItem: FC<RVItemType> = (props) => {
 				</div>
 			</div>
 			<div className='d-flex'>
-				<div className="ml-5">
+				<div className="mr-5">
 					<h5>Bed 5</h5>
 					<h5>22ft long</h5>
 					<h5>BunkHouse</h5>
