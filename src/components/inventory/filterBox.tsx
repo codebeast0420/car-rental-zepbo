@@ -3,7 +3,7 @@ import { HasChildren } from "@/src/type";
 
 const FilterBox: FC<HasChildren> = (props) => {
 	return (
-		<div className="col-md-4">
+		<div className="col-md-3">
 			<h2>Search</h2>
 			<div className="d-flex">
 				<input className="form-control mb-2 search-box" />
