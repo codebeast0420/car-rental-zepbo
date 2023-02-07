@@ -4,7 +4,7 @@ import PaginationBar from "../global/pagination";
 
 const MainListBox: FC<HasChildren> = (props) => {
 	return (
-		<section className="ftco-cart  col-md-8">
+		<section className="ftco-cart  col-md-9">
 			<div className="container">
 				<div className="sort-bar d-flex align-items-center justify-content-around mb-3" style={{ borderRadius: '0.5rem' }}>
 					<p className="m-0 text-light">Showing 1-24 of 4664</p>
