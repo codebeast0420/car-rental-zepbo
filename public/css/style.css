@@ -12837,15 +12837,15 @@ h5,
   font-size: 18px;
 }
 
-.table tbody tr td.product-name .rated span {
+.product-name .rated span {
   color: #01d28e;
 }
 
-.table tbody tr td.product-name .rated span:nth-child(1) {
+.product-name .rated span:nth-child(1) {
   color: #000000;
 }
 
-.table tbody tr td.product-name .rated span:last-child {
+.product-name .rated span:last-child {
   color: rgba(0, 0, 0, 0.1);
 }
 
@@ -14339,3 +14339,23 @@ textarea.form-control {
   }
 }
 
+.rv-item-info {
+  color: #888;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.search-box {
+  height: 40px !important;
+  width: 85%;
+}
+
+.rv-item {
+  border-bottom: solid 1px #006fdc;
+}
+
+@media (max-width: 992px) {
+  .inventory-item {
+    flex-direction: column;
+  }
+}
