@@ -29,12 +29,17 @@ const RVItem: FC<RVItemType> = (props) => {
 				</div>
 			</div>
 			<div className='d-flex'>
-				<div className="mr-5">
-					<h5>Bed 5</h5>
-					<h5>22ft long</h5>
-					<h5>BunkHouse</h5>
+				<div style={{color: 'blue'}}>
+					<h5 style={{color: 'blue'}}>Bed 5</h5>
+					<h5 style={{color: 'blue'}}>22ft long</h5>
+					<h5 style={{color: 'blue'}}>BunkHouse</h5>
 				</div>
-				<div className='ml-5'>
+				<div>
+					<h5 style={{color: 'blue'}}><strong>Our Price: $ 30,928</strong></h5>
+					<h5 style={{color: 'green'}}>List Price: $36, 249</h5>
+					<h5 style={{color: 'red'}}>Discount: $ 5,321</h5>
+				</div>
+				<div>
 					<p className="d-flex flex-column mb-0 d-block">
 						<a href="#" className="btn btn-primary py-2">Book now</a>
 						<a href="#" className="btn btn-secondary py-2 mt-3">Details</a>
