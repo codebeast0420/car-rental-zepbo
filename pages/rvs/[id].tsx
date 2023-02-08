@@ -2,10 +2,15 @@ import Footer from "@/src/components/global/footer";
 import MainTheme from "@/src/components/global/mainTheme";
 import Navbar from "@/src/components/global/navbar";
 import React, { FC, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Pagination, Autoplay, Navigation } from "swiper";
+import 'swiper/css/pagination'
+import "swiper/css";
 
 const RVDetail: FC = () => {
 
 	const [tab, setTab] = useState(0);
+	SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 	return (
 		<MainTheme>
@@ -16,10 +21,56 @@ const RVDetail: FC = () => {
 					<div className="row justify-content-center">
 						<div className="col-md-12 row">
 							<div className="car-details col-md-7">
-								<div className="img rounded" style={{ backgroundImage: "url(../images/car-1.jpg)" }}></div>
+								<Swiper
+									modules={[Pagination]}
+									pagination={{
+										dynamicBullets: true,
+									}}
+									loop={true}
+									centeredSlides={true}
+									// breakpoints={{
+									// 	768: {
+									// 		slidesPerView: 1,
+									// 	},
+									// }}
+									autoplay={{
+										"delay": 2500,
+										"disableOnInteraction": false
+									}} >
+									<SwiperSlide>
+										<div className="img rounded" style={{ backgroundImage: "url(../images/car-1.jpg)" }}></div>
+									</SwiperSlide>
+									<SwiperSlide>
+										<div className="img rounded" style={{ backgroundImage: "url(../images/internal-1.jpg)" }}></div>
+									</SwiperSlide>
+									<SwiperSlide>
+										<div className="img rounded" style={{ backgroundImage: "url(../images/internal-2.jpg)" }}></div>
+									</SwiperSlide>
+									<SwiperSlide>
+										<div className="img rounded" style={{ backgroundImage: "url(../images/internal-3.jpg)" }}></div>
+									</SwiperSlide>
+									<SwiperSlide>
+										<div className="img rounded" style={{ backgroundImage: "url(../images/internal-4.jpg)" }}></div>
+									</SwiperSlide>
+								</Swiper>
 								<div className="text text-center">
 									<span className="subheading">Cheverolet</span>
 									<h2>Mercedes Grand Sedan</h2>
+								</div>
+								<div>
+									<div className="col-sm-12">
+										<button className="btn btn-secondary w-100">GET THE BEST PRICE</button>
+									</div>
+									<div className="col-sm-12 row">
+										<div className="col-sm-6">
+											<button className="btn btn-primary mt-2" style={{ width: '100%' }}>REQUEST VIDEO TOUR</button>
+											<button className="btn btn-primary  mt-2" style={{ width: '100%' }}>APPLY FOR FINANCING</button>
+										</div>
+										<div className="col-sm-6">
+											<button className="btn btn-primary mt-2" style={{ width: '100%' }}>VALUE MY TRADE</button>
+											<button className="btn btn-primary mt-2" style={{ width: '100%' }}>CONTACT SALES</button>
+										</div>
+									</div>
 								</div>
 							</div>
 							<div className="col-md-5">
@@ -356,7 +407,7 @@ const RVDetail: FC = () => {
 				<div className="container">
 					<div className="row justify-content-center">
 						<div className="col-md-12 heading-section text-center mb-5">
-							<span className="subheading">Choose Car</span>
+							<span className="subheading">Choose RV</span>
 							<h2 className="mb-2">Related RVs</h2>
 						</div>
 					</div>
