@@ -10,17 +10,76 @@ const RVDetail: FC = () => {
 	return (
 		<MainTheme>
 			<Navbar current={4} />
-			<div className="w-100" style={{backgroundColor: 'black', height: '100px'}}></div>
+			<div className="w-100" style={{ backgroundColor: 'black', height: '100px' }}></div>
 			<section className="ftco-section ftco-car-details">
 				<div className="container">
 					<div className="row justify-content-center">
-						<div className="col-md-12">
-							<div className="car-details">
+						<div className="col-md-12 row">
+							<div className="car-details col-md-7">
 								<div className="img rounded" style={{ backgroundImage: "url(../images/car-1.jpg)" }}></div>
 								<div className="text text-center">
 									<span className="subheading">Cheverolet</span>
 									<h2>Mercedes Grand Sedan</h2>
 								</div>
+							</div>
+							<div className="col-md-5">
+								<h3 className="text-center">Specifications</h3>
+								<table className="table table-dark table-striped rv-specifications">
+									<tbody>
+										<tr>
+											<td>Sleeps</td>
+											<td>3</td>
+										</tr>
+										<tr>
+											<td>Length</td>
+											<td>21 ft 7 in</td>
+										</tr>
+										<tr>
+											<td>Ext Width</td>
+											<td>7 ft 1 in</td>
+										</tr>
+										<tr>
+											<td>Ext height</td>
+											<td>9 ft 11 in</td>
+										</tr>
+										<tr>
+											<td>Hitch Weight</td>
+											<td>437 lbs</td>
+										</tr>
+										<tr>
+											<td>Gross Weight</td>
+											<td>3937 lbs</td>
+										</tr>
+										<tr>
+											<td>Dry Weight</td>
+											<td>3145 lbs</td>
+										</tr>
+										<tr>
+											<td>Cargo Weight</td>
+											<td>1023 lbs</td>
+										</tr>
+										<tr>
+											<td>Fresh Water Capacity</td>
+											<td>32 gals</td>
+										</tr>
+										<tr>
+											<td>Grey Water Capacity</td>
+											<td>25 gals</td>
+										</tr>
+										<tr>
+											<td>Black Water Capacity</td>
+											<td>25 gals</td>
+										</tr>
+										<tr>
+											<td>Tire Size</td>
+											<td>14&quot;</td>
+										</tr>
+										<tr>
+											<td>VIN</td>
+											<td>4X4TCK616HK037791</td>
+										</tr>
+									</tbody>
+								</table>
 							</div>
 						</div>
 					</div>
