@@ -12594,7 +12594,7 @@ h5,
 
 .car-details .img {
   width: 100%;
-  height: 600px;
+  height: 500px;
   margin-bottom: 40px;
 }
 
@@ -14378,4 +14378,12 @@ textarea.form-control {
   padding-bottom: 0.5rem;
   padding-left: 0.2rem;
   padding-right: 0.2rem;
+}
+
+.rv-specifications tbody tr td {
+  padding: 10px;
+}
+
+.rv-specifications {
+  min-width: 0% !important;
 }
