@@ -100,10 +100,10 @@ const Inventory: FC = () => {
 					</FilterItem>
 				</FilterBox>
 				<MainListBox>
-					<RVItem img="/images/car-1.jpg" />
-					<RVItem img="/images/car-2.jpg" />
-					<RVItem img="/images/car-3.jpg" />
-					<RVItem img="/images/car-4.jpg" />
+					<RVItem img="/images/car-1.jpg" id={1} />
+					<RVItem img="/images/car-2.jpg" id={2} />
+					<RVItem img="/images/car-3.jpg" id={3} />
+					<RVItem img="/images/car-4.jpg" id={4} />
 				</MainListBox>
 			</RVsTheme>
 			<Footer />
