@@ -59,7 +59,7 @@ const RVDetail: FC = () => {
 								</div>
 								<div>
 									<div className="col-sm-12">
-										<button className="btn btn-secondary w-100">GET THE BEST PRICE</button>
+										<button className="btn btn-secondary" style={{ width: '93%' }}>GET THE BEST PRICE</button>
 									</div>
 									<div className="col-sm-12 row">
 										<div className="col-sm-6">
