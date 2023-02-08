@@ -1,13 +1,15 @@
 import React, { FC } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface RVItemType {
 	img: string,
+	id: number,
 }
 
 const RVItem: FC<RVItemType> = (props) => {
 	return (
-		<div className='d-flex inventory-item mb-3 rv-item justify-content-between align-items-center'>
+		<Link href={`rvs/${props.id}`} className='d-flex inventory-item mb-3 rv-item justify-content-between align-items-center'>
 			<div>
 				<div className="car-image">
 					<Image src={props.img} alt='car' width={150} height={100} />
@@ -41,12 +43,12 @@ const RVItem: FC<RVItemType> = (props) => {
 				</div>
 				<div className='ml-3'>
 					<p className="d-flex flex-column mb-0 d-block">
-						<a href="#" className="btn btn-primary py-2">Book now</a>
-						<a href="#" className="btn btn-secondary py-2 mt-3">Details</a>
+						<Link href={`rvs/${1}`} className="btn btn-primary py-2">Book now</Link>
+						<Link href={`rvs/${1}`} className="btn btn-secondary py-2 mt-3">Details</Link>
 					</p>
 				</div>
 			</div>
-		</div>
+		</Link>
 	)
 }
 
